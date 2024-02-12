@@ -19,7 +19,7 @@ const bubbleSort = (array) => {
             console.log(array);
         }
 
-        // if (!swapped) break;
+        if (!swapped) break;
         console.log(`Array after ${i + 1} loop [${array}]`);
     }
     return array;
