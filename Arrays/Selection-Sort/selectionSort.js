@@ -7,7 +7,7 @@ const selectionSort = (array) => {
                 minimum = j; //if any other element which is smaller than minimum, set as minimum
             }
         }
-        temp = array[i]; // At the end of inner loop swap minimum element with the first unsorted element of array i.e i.
+        let temp = array[i]; // At the end of inner loop swap minimum element with the first unsorted element of array i.e i.
         array[i] = array[minimum];
         array[minimum] = temp;
 
